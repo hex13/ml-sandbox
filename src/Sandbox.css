@@ -1,4 +1,4 @@
-.sandbox, h1 {
+.sandbox, h1, button {
     border: 1px solid grey;
     background: white;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
@@ -19,3 +19,12 @@ path {
     transition: 0.15s all;
 }
 
+button {
+    font-size: 20px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
